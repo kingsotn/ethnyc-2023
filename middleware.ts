@@ -1,14 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 
-
+// 
 // Middleware
 export const config = {
   matcher: '/',
 }
 
 export async function middleware(req: NextRequest) {
-  const { nextUrl: url, tokens } = req;
+  // const { nextUrl: url, tokens } = req;
 
   // const friendAddress = await getFriendTokenAddress();
   // const friendTokenValue = await getFriendValue(friendAddress);
@@ -19,5 +19,5 @@ export async function middleware(req: NextRequest) {
   // url.searchParams.set('friendTokenValue', friendTokenValue);
   // url.searchParams.set('scrollTokenValue', scrollTokenValue);
 
-  return NextResponse.rewrite(url);
+  // return NextResponse.rewrite(url);
 }
