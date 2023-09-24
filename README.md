@@ -1,33 +1,8 @@
----
-name: Geolocation in Edge Middleware
-slug: edge-functions-geolocation
-description: Learn how to use visitor's location at the edge.
-framework: Next.js
-useCase:
-  - Edge Middleware
-  - Documentation
-css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/geolocation&project-name=geolocation&repository-name=geolocation
-demoUrl: https://edge-functions-geolocation.vercel.sh
-relatedTemplates:
-  - edge-functions-i18n
----
-
-# Geolocation
-
-This example shows how to use the `event.request.geo` object to determine a user's location.
-
-```ts
-geo: {
-  city?: string
-  country?: string
-  region?: string
-}
-```
+# Key Swap
 
 ## Demo
 
-https://edge-functions-geolocation.vercel.sh
+https://ethnyc-2023.vercel.app/
 
 ## How to Use
 
@@ -50,6 +25,8 @@ pnpm create next-app --example https://github.com/vercel/examples/tree/main/edge
 Next, run Next.js in development mode:
 
 ```bash
+brew install pnpm
+pnpm i
 pnpm dev
 ```
 
