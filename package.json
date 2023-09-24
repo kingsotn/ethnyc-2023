@@ -10,10 +10,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@rainbow-me/rainbowkit": "^1.0.11",
     "@vercel/examples-ui": "^1.0.5",
     "next": "canary",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "viem": "^1.12.1",
+    "wagmi": "^1.4.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.45",
